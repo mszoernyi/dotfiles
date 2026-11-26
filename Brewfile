@@ -149,10 +149,7 @@ cask "whatsapp"
 
 # App Store
 mas "1Password for Safari", id: 1569813296
-mas "AusweisApp", id: 948660805
-mas "Goodnotes", id: 1444383602
 mas "MoneyMoney", id: 872698314
-mas "Obsidian Web Clipper", id: 6720708363
 mas "WireGuard", id: 1451685025
 
 # VS Code

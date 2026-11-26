@@ -101,8 +101,10 @@ vscode "yzhang.markdown-all-in-one"
 
 tap "hamed-elfayome/claude-usage"
 tap "steipete/tap"
+tap "anomalyco/tap"
 
 # command-line tools
+brew "anomalyco/tap/opencode", trusted: true
 brew "apfel"
 brew "btop"
 brew "llama.cpp"
@@ -124,7 +126,7 @@ cask "camunda-modeler"
 cask "discord"
 cask "docker-desktop"
 cask "granola"
-cask "hamed-elfayome/claude-usage/claude-usage-tracker"
+cask "hamed-elfayome/claude-usage/claude-usage-tracker", trusted: true
 cask "hammerspoon"
 cask "iterm2"
 cask "keepingyouawake"
@@ -143,7 +145,7 @@ cask "spotify"
 cask "sshfs-mac"
 cask "stats"
 cask "steam"
-cask "steipete/tap/codexbar"
+cask "steipete/tap/codexbar", trusted: true
 cask "synology-drive"
 cask "whatsapp"
 

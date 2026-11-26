@@ -99,12 +99,9 @@ vscode "yzhang.markdown-all-in-one"
 # --- Personal (mszoernyi) -------------------------------------------------
 # Kept at the end of the file so company updates rarely conflict with it.
 
-tap "hamed-elfayome/claude-usage"
 tap "steipete/tap"
-tap "anomalyco/tap"
 
 # command-line tools
-brew "anomalyco/tap/opencode", trusted: true
 brew "apfel"
 brew "btop"
 brew "llama.cpp"
@@ -126,7 +123,6 @@ cask "camunda-modeler"
 cask "discord"
 cask "docker-desktop"
 cask "granola"
-cask "hamed-elfayome/claude-usage/claude-usage-tracker", trusted: true
 cask "hammerspoon"
 cask "iterm2"
 cask "keepingyouawake"
